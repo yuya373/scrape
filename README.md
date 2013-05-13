@@ -1,4 +1,4 @@
-AmazonBestSellerBook
+scraping by nokogiri
 ====================
 
-アマゾンのベストセラー（本）を取得する。
+nokogiriでいろいろやってみる。
