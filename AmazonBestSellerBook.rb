@@ -17,7 +17,7 @@ rank = Nokogiri::HTML.parse(html, nil, charset)
 rank.css("item").each do |item|
 	puts item.css("title").text
 	puts item.css("pubdate").text
-	puts item.css("a")[2].text + item.css("span[class = 'byLinePipe']")[0].text
+	puts item.css("a")[2].text
 	puts item.css("span[class ='price']").text
 	puts ""
 end
